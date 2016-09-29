@@ -1,0 +1,56 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+	background: url(https://lh3.googleusercontent.com/IfqCenRAfKCz3LoXvqWTw-N7F4cxwCHWA15e8rDZGnVjebyP8v3ovc-XvaOnSdKs0FmAj7Ckfw=w1653-h930-rw-no) no-repeat fixed center;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+	background-color: #b2dfdb;
+}
+
+.nav-wrapper .brand-logo img{
+	height: 84px;
+	position: relative;
+	bottom: 10px;
+}
+
+.navbar{
+	background-color: #ffebee;
+}
+
+.content{
+	background-color: #edf170;
+	border:solid #ffebee;
+	    width: 646px;
+	padding-top: 80px;
+
+}
+
+.side-list{
+	background-color: #6acac1;
+	text-align: center;
+	margin-left: -164px;
+	width: 299px;
+	border:solid #ffebee;
+	    height: 400px;
+	        margin-top: -65px;
+	padding: 20px;
+}
+
+.display{
+	background-color: #ffebee;
+	border:solid #b2dfdb;
+	padding: 20px;
+
+}
+
+textarea{
+  	border: 3px solid #cccccc;
+	padding:8px;
+}

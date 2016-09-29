@@ -1,0 +1,49 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+    background: url(../images/bg1.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;	
+}
+.card-panel {
+    transition: box-shadow .25s;
+    padding: 20px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    }
+	
+.row .col.m4 {
+    width: 33.3333333333%;
+    /* margin-left: auto; */
+    /* left: auto; */
+    /* right: auto; */
+    /* margin-top: -48px; */
+    float: right;
+}
+label {
+    font-size: 0.8rem;
+    color: #c51162;
+}
+.light-green-text.text-darken-4 {
+    color: #85b6e2 !important;
+}
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid #c51162;
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: .2s;
+}
+html{
+	
+	color: white;
+}
